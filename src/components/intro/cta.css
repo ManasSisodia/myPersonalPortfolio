@@ -1,0 +1,17 @@
+.download-btn{
+
+    display: block;
+    width: 115px;
+    height: 25px;
+    background: rgb(54, 161, 161);
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+    border-style: solid;
+    border-width : 1px 1px 1px 1px;
+    text-decoration : none;
+    border-color : #000000
+}
