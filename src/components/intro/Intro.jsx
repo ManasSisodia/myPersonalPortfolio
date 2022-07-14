@@ -19,8 +19,8 @@
                     </div>
                 </div>
                 <p className="i-desc">
-                    I am a Mechanical Engineering Student from Delhi Technological University but I have a keen Interest
-                    in Web Development and Computer Science.
+                    I am Pursuing my major in Mechanical Engineering and Minor in Information technology from Delhi Technological University
+                    and I have a keen Interest in Web Development and Computer Science.
                 </p>
                 <CTA/>
             </div>

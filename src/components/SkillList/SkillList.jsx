@@ -17,8 +17,10 @@ const SkillList = () => {
     </div>
     <div className="sl-list">
       {products.map((item)=>(
-          <Skill key={item.id} img = {item.img} link = {item.link}/>
+          <Skill key={item.id} img = {item.img} link = {item.link} info={item.info}/>
       ))}
+
+    {/* <div className='skill-detail'>Hello</div> */}
     </div>
     </section>
   )

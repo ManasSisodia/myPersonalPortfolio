@@ -4,7 +4,7 @@ import "./skill.css"
 
 
 
-const Skill  = ({img,link}) => {
+const Skill  = ({img,link,info}) => {
   const theme = useContext(ThemeContext);
   const darkMode = theme.state.darkMode;
   return (
@@ -13,11 +13,13 @@ const Skill  = ({img,link}) => {
         <div style={{backgroundColor:  darkMode && "#222"}} className="s-circle"></div>
         <div style={{backgroundColor:  darkMode && "#222"}} className="s-circle"></div>
         <div style={{backgroundColor:  darkMode && "#222"}} className="s-circle"></div>
+        <div className='skill-detail'>{info}</div>
       </div>
       <a href={link} target="_blank" rel="noreferrer">
         <img src={img} alt="" className="s-img" />
       </a>
     </div>
+    
   )
 }
 

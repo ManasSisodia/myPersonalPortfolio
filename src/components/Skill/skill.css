@@ -7,14 +7,19 @@
     overflow: hidden;
 }
 .s-browser{
-    height: 20px;
+    height: 30px;
     background-color: rgb(243,242,242);
     display: flex;
     align-items: center;
+    justify-content: center;
     position: sticky;
     z-index: 2;
 }
 
+.skill-detail{
+    font-weight: 100;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 .s-circle{
     width: 6px;
     height: 6px;
@@ -24,12 +29,11 @@
 }
 .s-img{
     width: 100%;
-    transition: all 2s ease;
+    transition: all 4s ease;
 }
 
 .s:hover .s-img{
-    transform: perspective(
-              200px) translateZ(100px);
+    transform: translateY(-100%)
 }
 
 @media screen and (max-width: 480px){
@@ -39,14 +43,20 @@
     }
 }
 
-/* @media screen and (max-width: 768px){
+@media screen and (max-width: 768px) and (min-width: 481px ){
     .s{
        margin-top: 50px;
+       width: 40%;
+       height: 18vh;
     }
 }
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1200px) and (min-width: 769px ){
     .s{
-       
+        width: 30%;
+        height: 13vh;
     }
-} */
+}
+
+
+ 

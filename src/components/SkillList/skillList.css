@@ -41,32 +41,33 @@
     }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px ) and (min-width: 481px ){
     .sl{
         padding: 10px;
         margin-bottom: 50px;
         margin-top: 70px;
     }
     .sl-texts{
+        font-weight: 300;
         width: 100%;
     }
 
-    /* .sl-desc{
-        display: none;
-    } */
 }
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1200px) and (min-width: 769px ){
     .sl{
         padding: 10px;
         margin-bottom: 50px;
-        margin-top: 70px;
     }
     .sl-texts{
+        font-weight: 300;
+        font-size: 25px;
         width: 100%;
     }
+    .sl-title{
+        font-size: 60px;
+    }
 
-    /* .sl-desc{
-        display: none;
-    } */
 }
+
+
